@@ -2,8 +2,7 @@
 Python Codes From My Youtube Tutorials
 
 1 - > MacChanger
-![1](https://user-images.githubusercontent.com/39486276/57179666-c5440180-6e9d-11e9-878d-270c9e1ff93a.png)
+!(https://carbon.now.sh/embed/?bg=rgba(74%252C144%252C226%252C1)&t=dracula&wt=none&l=python&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=87px&ph=100px&ln=false&fm=Hack&fs=13px&lh=153%2525&si=false&es=4x&wm=false&code=%252523Mac%252520Changer%252520For%252520Linux%252520%25250Aimport%252520subprocess%25250A%25250A%252523Code%25250Adef%252520macChanger(card_name%25252Cmac)%25253A%25250A%252520%252520%252509subprocess.call(%252522ifconfig%252520%252522%25252Bcard_name%25252B%252522%252520down%252522%25252Cshell%25253DTrue)%25250A%252509subprocess.call(%252522ifconfig%252520%252522%25252Bcard_name%25252B%252522%252520hw%252520ether%252520%252522%25252Bnew_mac%25252Cshell%25253DTrue)%25250A%252509subprocess.call(%252522ifconfig%252520%252522%25252Bcard_name%25252B%252522%252520up%252522%25252Cshell%25253DTrue)%25250Acard%25253Dint(input(%252522Enter%252520Card%25255Cn1.eth0%25255Cn2.Wlan0%25255Cn--%25253E%252522))%25250Anew_mac%25253Dstr(input(%252522Enter%252520New%252520Mac%252520Address%252520(Eg%25253A%25252012%25253A13%25253A14%25253A15%25253A15%25253A14)%25253A%252522))%25250Aif%252520card%25253D%25253D1%25253A%25250A%252509macChanger(%252522eth0%252522%25252Cnew_mac)%25250Aelif%252520card%25253D%25253D2%25253A%25250A%252509macChanger(%252522wlan0%252522%25252Cnew_mac)%25250Aelse%25253A%25250A%252509print(%252522Invalid%252520Option%252522)%25250A)
 2 - > OTP Generator
-![2](https://user-images.githubusercontent.com/39486276/57179667-c5440180-6e9d-11e9-8741-ac636c16cfc4.png)
 3 - > Password Generator
-![3](https://user-images.githubusercontent.com/39486276/57179668-c5440180-6e9d-11e9-84d9-104215d095ee.png)
+
